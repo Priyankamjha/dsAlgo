@@ -9,8 +9,8 @@ package dsAlgo_TestRunner;
 			plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"}, //reporting purpose	
 	monochrome=false,  //console output color
 	 //tags from feature file
-	features = {"src/test/resources/Features"},
-	//tags = "@Test_G2 ",	
+	features = {"src/test/resources/Features/KGraphPage.feature"},
+	tags = "@Test_G2 ",	
 	glue={"dsAlgo_StepDefinition","hooks"})//location of  step definition files
 	public class TestRunner  extends AbstractTestNGCucumberTests{
 		
